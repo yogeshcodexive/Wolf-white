@@ -6,3 +6,49 @@ button,
     -moz-appearance: none !important;
     -webkit-appearance: none !important;
 }
+.btnA {
+    height: 47px;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 100px;
+
+    &.btn-DEE5DA {
+        background-color: $color-DEE5DA;
+        border: 1px solid transparent;
+        &:hover {
+            border: 1px solid $color-DEE5DA;
+            background-color: transparent;
+            color: $color-DEE5DA;
+            transition: all ease 0.3s;
+        }
+    }
+    &.btn-AF9DA3{
+        background-color: $color-AF9DA3;
+        border: 1px solid transparent;
+        &:hover {
+            border: 1px solid $color-AF9DA3;
+            background-color: transparent;
+            color: $color-AF9DA3;
+        }
+    }
+    &.btn-F0EBE2{
+        background-color: $color-F0EBE2;
+        border: 1px solid transparent;
+        &:hover {
+            border: 1px solid $color-F0EBE2;
+            background-color: transparent;
+            color: $color-F0EBE2;
+        }
+    }
+ }
+ .btnB {
+    height: 28px;
+     display: inline-flex;
+    align-items: center;
+     padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 100px;
+ }
+

@@ -1,0 +1,28 @@
+.sub-hero-section {
+
+    .right-content{
+        padding-left: 60px;
+    }
+    .case-study-single-img{
+        height: 810px;
+    }
+    .prefix-btn{
+        border: 1px solid #80808040;
+    }
+}
+.our-team-section {
+    .team-images{
+        height: 306px;
+    }
+}
+.expertise-section {
+    .expert-content{
+        padding-left: 60px;
+    }
+    .expert-box{
+        border-bottom: 1px solid #80808040;
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}

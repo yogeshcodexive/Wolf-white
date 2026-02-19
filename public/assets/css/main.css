@@ -14444,11 +14444,11 @@ progress {
   font-family: "montserrat-regular";
 }
 
-.playfairdisplay-italic {
+.playfair-italic {
   font-family: "playfairdisplay-italic";
 }
 
-.playfairdisplay-regular {
+.playfair-regular {
   font-family: "playfairdisplay-regular";
 }
 
@@ -17467,6 +17467,18 @@ textarea {
   }
 }
 
+.container2 {
+  max-width: 1440px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+@media (max-width: 991.98px) {
+  .container2 {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+}
+
 .w-fit {
   width: fit-content;
 }
@@ -17477,6 +17489,24 @@ textarea {
 
 .h-vh {
   height: 100vh;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row14 {
+  margin-left: -14px;
+  margin-right: -14px;
+}
+.row14 > * {
+  padding-left: 14px;
+  padding-right: 14px;
 }
 
 .truncate {
@@ -17685,6 +17715,10 @@ textarea {
   line-height: 48px;
 }
 
+.leading52 {
+  line-height: 52px;
+}
+
 .leading56 {
   line-height: 56px;
 }
@@ -17766,6 +17800,9 @@ textarea {
   .res-leading48 {
     line-height: 48px;
   }
+  .res-leading52 {
+    line-height: 52px;
+  }
   .res-leading56 {
     line-height: 56px;
   }
@@ -17802,12 +17839,136 @@ button,
   -webkit-appearance: none !important;
 }
 
+.btnA {
+  height: 47px;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 100px;
+}
+.btnA.btn-DEE5DA {
+  background-color: #DEE5DA;
+  border: 1px solid transparent;
+}
+.btnA.btn-DEE5DA:hover {
+  border: 1px solid #DEE5DA;
+  background-color: transparent;
+  color: #DEE5DA;
+  transition: all ease 0.3s;
+}
+.btnA.btn-AF9DA3 {
+  background-color: #AF9DA3;
+  border: 1px solid transparent;
+}
+.btnA.btn-AF9DA3:hover {
+  border: 1px solid #AF9DA3;
+  background-color: transparent;
+  color: #AF9DA3;
+}
+.btnA.btn-F0EBE2 {
+  background-color: #F0EBE2;
+  border: 1px solid transparent;
+}
+.btnA.btn-F0EBE2:hover {
+  border: 1px solid #F0EBE2;
+  background-color: transparent;
+  color: #F0EBE2;
+}
+
+.btnB {
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 100px;
+}
+
 .card-hover .img {
   transform: scale(1);
   transition: 0.3s all ease-in-out;
 }
 .card-hover:hover .img {
   transform: scale(1.1);
+}
+
+.get-touch-section .get-touch-img {
+  height: 529px;
+}
+.get-touch-section .get-touch-content {
+  bottom: 86px;
+}
+
+.left-right-content .right-content {
+  border-top: 1px solid rgba(0, 0, 0, 0.1098039216);
+}
+
+.privacy-section .privacy-links .active a {
+  border-left: 1px solid rgba(0, 0, 0, 0.3019607843);
+  padding-left: 16px;
+  font-family: "montserrat-medium";
+}
+.privacy-section .privacy-content {
+  padding-left: 85px;
+}
+
+.sub-hero-section .right-content {
+  padding-left: 60px;
+}
+.sub-hero-section .case-study-single-img {
+  height: 810px;
+}
+.sub-hero-section .prefix-btn {
+  border: 1px solid rgba(128, 128, 128, 0.2509803922);
+}
+
+.our-team-section .team-images {
+  height: 306px;
+}
+
+.expertise-section .expert-content {
+  padding-left: 60px;
+}
+.expertise-section .expert-box {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2509803922);
+}
+.expertise-section .expert-box:last-child {
+  border-bottom: none;
+}
+
+.our-showcase-section .case-study-box {
+  border-top: 1px solid rgba(240, 235, 226, 0.2509803922);
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.our-showcase-section .case-img {
+  height: 450px;
+  padding-right: 40px;
+}
+.our-showcase-section .case-right-block {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.our-showcase-section .case-study-btn {
+  border: 1px solid rgba(240, 235, 226, 0.2509803922);
+}
+
+.left-right-list-content .list-box {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.view-project-section .project-card-img {
+  height: 412px;
+}
+.view-project-section .project-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.view-project-section .project-btn {
+  border: 1px solid rgba(240, 235, 226, 0.2509803922);
 }
 
 /*# sourceMappingURL=main.css.map */

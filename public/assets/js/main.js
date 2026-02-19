@@ -20549,6 +20549,7 @@ var Privacy = /*#__PURE__*/function () {
     key: "Privacy",
     value: function Privacy() {
       $(document).ready(function () {
+        console.log("hello");
         var links = $("#privacy-links a");
         links.first().parent().addClass("active");
         $(window).scroll(function () {

@@ -1,0 +1,15 @@
+.privacy-section {
+    .privacy-links  {
+        .active{
+            a{
+                border-left: 1px solid #0000004D;
+                padding-left: 16px;
+                // font-weight: 500;
+                font-family: "montserrat-medium";
+            }
+        }
+    }
+    .privacy-content{
+        padding-left: 85px;
+    }
+}

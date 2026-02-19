@@ -118,6 +118,9 @@
 .leading48 {
   line-height: $leading48;
 }
+.leading52 {
+  line-height: $leading52;
+}
 .leading56 {
   line-height: $leading56;
 }
@@ -198,6 +201,9 @@
   .res-leading48 {
     line-height: $leading48;
   }
+  .res-leading52 {
+    line-height: $leading52;
+  }
   .res-leading56 {
     line-height: $leading56;
   }
@@ -207,6 +213,7 @@
 }
 
 //opacity
+
 .opacity20 {
   opacity: $opacity20;
 }
