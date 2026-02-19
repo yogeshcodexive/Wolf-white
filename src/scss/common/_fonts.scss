@@ -4,7 +4,31 @@
 //     font-style: normal;
 // }
 @font-face {
-    font-family: "roobert";
-    src: url("../../../public/assets/fonts/");
-    font-weight: 400;
+    font-family: "montserrat-medium";
+    src: url("../../../public/assets/fonts/montserrat-medium.ttf");
+}
+@font-face {
+    font-family: "montserrat-regular";
+    src: url("../../../public/assets/fonts/montserrat-regular.ttf");
+}
+@font-face {
+    font-family: "playfairdisplay-italic";
+    src: url("../../../public/assets/fonts/playfairdisplay-italic.ttf");
+}
+@font-face {
+    font-family: "playfairdisplay-regular";
+    src: url("../../../public/assets/fonts/playfairdisplay-regular.ttf");
+}
+
+.montserrat-medium {
+    font-family: "montserrat-medium";
+}
+.montserrat-regular {
+    font-family: "montserrat-regular";
+}
+.playfairdisplay-italic {
+    font-family: "playfairdisplay-italic";
+}
+.playfairdisplay-regular {
+    font-family: "playfairdisplay-regular";
 }
