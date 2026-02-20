@@ -18096,7 +18096,6 @@ button,
 
 footer .footer-logo {
   height: 124px;
-  width: 197px;
 }
 footer .newsletter-input {
   border: 1px solid #F0EBE2;
@@ -18112,6 +18111,49 @@ footer .footer-bar {
 }
 footer .footer-bar .footer-bar-link {
   padding-left: 24px;
+}
+
+header {
+  z-index: 999;
+  border-bottom: 1px solid rgba(48, 62, 61, 0.2509803922);
+}
+header.black-header .black-logo {
+  display: block !important;
+}
+header.black-header .white-logo {
+  display: none;
+}
+header.black-header .nav-link li a {
+  color: #303E3D;
+}
+header.black-header .header-btn {
+  color: #303E3D;
+}
+header .header-logo {
+  height: 27px;
+}
+header .black-arrow {
+  height: 7px;
+}
+header .header-btn {
+  height: 39px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1215686275);
+  border-radius: 100px;
+  display: inline-flex;
+  align-items: center;
+}
+header .header-btn:hover {
+  background-color: #303E3D;
+  color: #F0EBE2;
+  border: 1px solid transparent;
+  transition: all ease-in-out 0.3s;
+}
+header .mega-nav-link .mega-col {
+  opacity: 0;
+  visibility: hidden;
+  top: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
