@@ -1,0 +1,44 @@
+.two-image-section{
+    .two-images-card{
+        height: 608px;
+        padding-right: 32px;
+    }
+    .right-content-block {
+        padding-left: 32px;
+    }
+    .small-img {
+        height: 320px;
+        padding-left: 34px;
+    }
+}
+.related-project-section{
+    .project-images {
+        height: 401px;
+    }
+    .project-slider {
+        .slick-list {
+            overflow: visible;
+
+            margin-left: -8px;
+            margin-right:-8px;
+        }
+        .slick-slide {
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+        
+    }
+    .slick-dots {
+        position:  static !important;
+    }
+    .slick-dots li button:before {
+     content: '' !important;
+     width: 8px !important;
+     height: 8px !important;
+     border-radius: 100px !important;
+     background-color: $color-000000 !important;
+    }
+    .slick-dots li button{
+        height: 8px !important;
+    }
+}

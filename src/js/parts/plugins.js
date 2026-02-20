@@ -1,19 +1,24 @@
+import { arrow } from "@popperjs/core";
 import "slick-carousel";
 
 export class Plugins {
 
   init() {
-    this.hideShow();
+    this.projectSlider();
   }
-  hideShow(){
-    $(document).ready(function(){
-      $("#hide").click(function(){
-        $("p").hide();
+  projectSlider() {
+    $(document).ready(function () {
+
+      $('.project-slider').slick({
+        slidesToShow: 2.5,
+        slidesToScroll: 1,
+        dots:true,
+        infinite:false,
+        appendDots:$('.project-dots')
+        // autoplay: true,
+        // autoplaySpeed: 2000,
       });
-      $("#show").click(function(){
-        $("p").show();
-      });
-    });
+    })
   }
 
 }

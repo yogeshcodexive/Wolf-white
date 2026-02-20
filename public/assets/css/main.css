@@ -17500,6 +17500,15 @@ textarea {
   padding-right: 0;
 }
 
+.row8 {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.row8 > * {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
 .row14 {
   margin-left: -14px;
   margin-right: -14px;
@@ -17875,6 +17884,14 @@ button,
   background-color: transparent;
   color: #F0EBE2;
 }
+.btnA.btn-transparent {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.btnA.btn-transparent:hover {
+  background-color: #000000;
+  color: #F0EBE2;
+}
 
 .btnB {
   height: 28px;
@@ -17969,6 +17986,44 @@ button,
 }
 .view-project-section .project-btn {
   border: 1px solid rgba(240, 235, 226, 0.2509803922);
+}
+
+.two-image-section .two-images-card {
+  height: 608px;
+  padding-right: 32px;
+}
+.two-image-section .right-content-block {
+  padding-left: 32px;
+}
+.two-image-section .small-img {
+  height: 320px;
+  padding-left: 34px;
+}
+
+.related-project-section .project-images {
+  height: 401px;
+}
+.related-project-section .project-slider .slick-list {
+  overflow: visible;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.related-project-section .project-slider .slick-slide {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.related-project-section .slick-dots {
+  position: static !important;
+}
+.related-project-section .slick-dots li button:before {
+  content: "" !important;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 100px !important;
+  background-color: #000000 !important;
+}
+.related-project-section .slick-dots li button {
+  height: 8px !important;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -4,8 +4,6 @@ export class Privacy {
     }
     Privacy() {
         $(document).ready(function () {
-            console.log("hello");
-            
             var links = $("#privacy-links a");
             links.first().parent().addClass("active");
 

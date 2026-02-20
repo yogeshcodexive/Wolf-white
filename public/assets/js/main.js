@@ -20427,6 +20427,7 @@ function plugins_createClass(Constructor, protoProps, staticProps) { if (protoPr
 function plugins_toPropertyKey(arg) { var key = plugins_toPrimitive(arg, "string"); return plugins_typeof(key) === "symbol" ? key : String(key); }
 function plugins_toPrimitive(input, hint) { if (plugins_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (plugins_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
 
+
 var Plugins = /*#__PURE__*/function () {
   function Plugins() {
     plugins_classCallCheck(this, Plugins);
@@ -20434,17 +20435,20 @@ var Plugins = /*#__PURE__*/function () {
   plugins_createClass(Plugins, [{
     key: "init",
     value: function init() {
-      this.hideShow();
+      this.projectSlider();
     }
   }, {
-    key: "hideShow",
-    value: function hideShow() {
+    key: "projectSlider",
+    value: function projectSlider() {
       $(document).ready(function () {
-        $("#hide").click(function () {
-          $("p").hide();
-        });
-        $("#show").click(function () {
-          $("p").show();
+        $('.project-slider').slick({
+          slidesToShow: 2.5,
+          slidesToScroll: 1,
+          dots: true,
+          infinite: false,
+          appendDots: $('.project-dots')
+          // autoplay: true,
+          // autoplaySpeed: 2000,
         });
       });
     }
@@ -20549,7 +20553,6 @@ var Privacy = /*#__PURE__*/function () {
     key: "Privacy",
     value: function Privacy() {
       $(document).ready(function () {
-        console.log("hello");
         var links = $("#privacy-links a");
         links.first().parent().addClass("active");
         $(window).scroll(function () {

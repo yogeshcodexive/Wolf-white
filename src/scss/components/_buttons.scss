@@ -42,6 +42,14 @@ button,
             color: $color-F0EBE2;
         }
     }
+    &.btn-transparent {
+        background-color: transparent;
+        border: 1px solid #00000033;
+        &:hover {
+            background-color: $color-000000;
+            color: $color-F0EBE2;
+        }
+    }
  }
  .btnB {
     height: 28px;
