@@ -1,0 +1,21 @@
+footer {
+    .footer-logo  {
+        height: 124px;
+        width: 197px;
+    }
+    .newsletter-input{
+        border: 1px solid $color-F0EBE2;
+        border-radius: 100px;
+        height: 48px;
+        padding: 15px;
+        button {
+            border: none;
+        }
+    }
+    .footer-bar{
+        border-top: 1px solid $color-F0EBE2;
+        .footer-bar-link{
+            padding-left: 24px;
+        }
+    }
+}

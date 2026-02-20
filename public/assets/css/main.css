@@ -18094,4 +18094,24 @@ button,
   border: 1px solid rgba(128, 128, 128, 0.2509803922);
 }
 
+footer .footer-logo {
+  height: 124px;
+  width: 197px;
+}
+footer .newsletter-input {
+  border: 1px solid #F0EBE2;
+  border-radius: 100px;
+  height: 48px;
+  padding: 15px;
+}
+footer .newsletter-input button {
+  border: none;
+}
+footer .footer-bar {
+  border-top: 1px solid #F0EBE2;
+}
+footer .footer-bar .footer-bar-link {
+  padding-left: 24px;
+}
+
 /*# sourceMappingURL=main.css.map */
