@@ -58,5 +58,9 @@ button,
      padding-left: 22px;
     padding-right: 22px;
     border-radius: 100px;
+    &.category-btn {
+        background-color: transparent;
+        border: 1px solid #80808040;
+    }
  }
 

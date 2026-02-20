@@ -14429,6 +14429,10 @@ progress {
   src: url("../../../public/assets/fonts/montserrat-regular.ttf");
 }
 @font-face {
+  font-family: "montserrat-semibold";
+  src: url("../../../public/assets/fonts/montserrat-semibold.ttf");
+}
+@font-face {
   font-family: "playfairdisplay-italic";
   src: url("../../../public/assets/fonts/playfairdisplay-italic.ttf");
 }
@@ -14442,6 +14446,10 @@ progress {
 
 .montserrat-regular {
   font-family: "montserrat-regular";
+}
+
+.monts-semi {
+  font-family: "montserrat-semibold";
 }
 
 .playfair-italic {
@@ -17901,6 +17909,10 @@ button,
   padding-right: 22px;
   border-radius: 100px;
 }
+.btnB.category-btn {
+  background-color: transparent;
+  border: 1px solid rgba(128, 128, 128, 0.2509803922);
+}
 
 .card-hover .img {
   transform: scale(1);
@@ -18024,6 +18036,62 @@ button,
 }
 .related-project-section .slick-dots li button {
   height: 8px !important;
+}
+
+.future-reading-section .reading-images {
+  height: 287px;
+}
+.future-reading-section .reading-slider .slick-list {
+  overflow: visible;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.future-reading-section .reading-slider .slick-slide {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.future-reading-section .slick-dots {
+  position: static !important;
+}
+.future-reading-section .slick-dots li button:before {
+  content: "" !important;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 100px !important;
+  background-color: #000000 !important;
+}
+.future-reading-section .slick-dots li button {
+  height: 8px !important;
+}
+
+.blog-open-section .single-blog-img {
+  height: 684px;
+}
+.blog-open-section .blog-open-content {
+  padding-left: 42px;
+  padding-right: 42px;
+}
+.blog-open-section .single-content-img {
+  height: 400px;
+}
+.blog-open-section .blockquote-block {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-left: 1px solid rgba(128, 128, 128, 0.5490196078);
+}
+
+.social-icons {
+  height: 42px;
+  width: 42px;
+  border: 1px solid rgba(128, 128, 128, 0.5490196078);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider {
+  border: 1px solid rgba(128, 128, 128, 0.2509803922);
 }
 
 /*# sourceMappingURL=main.css.map */

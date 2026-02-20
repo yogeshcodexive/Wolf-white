@@ -12,6 +12,10 @@
     src: url("../../../public/assets/fonts/montserrat-regular.ttf");
 }
 @font-face {
+    font-family: "montserrat-semibold";
+    src: url("../../../public/assets/fonts/montserrat-semibold.ttf");
+}
+@font-face {
     font-family: "playfairdisplay-italic";
     src: url("../../../public/assets/fonts/playfairdisplay-italic.ttf");
 }
@@ -25,6 +29,9 @@
 }
 .montserrat-regular {
     font-family: "montserrat-regular";
+}
+.monts-semi {
+    font-family: "montserrat-semibold";
 }
 .playfair-italic {
     font-family: "playfairdisplay-italic";
